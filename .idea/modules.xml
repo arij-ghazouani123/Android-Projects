@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CurriculumVitae.iml" filepath="$PROJECT_DIR$/.idea/modules/CurriculumVitae.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CurriculumVitae.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CurriculumVitae.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CurriculumVitae.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CurriculumVitae.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CurriculumVitae.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CurriculumVitae.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CurriculumVitae.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CurriculumVitae.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryVariant">#000000</color>
+    <color name="colorSecondary">#ff1744</color>
+    <color name="colorSecondaryVariant">#c4001d</color>
+    <color name="darkGray">#737373</color>
+    <color name="gold">#FFD700</color>
+    <color name="lightGray">#919191</color>
+    <color name="resetSeekBar">#BAB9B9</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="age_hint">Age</string>
+    <string name="app_name">CurriculumVitae</string>
+    <string name="btn_nxt_txt">NEXT</string>
+    <string name="btn_rst_txt">RESET</string>
+    <string name="email_hint">E-mail</string>
+    <string name="f_name_hint">Full name</string>
+    <string name="g_femme">Femme</string>
+    <string name="g_homme">Homme</string>
+    <string name="profile_image_cnt_desc">profile image</string>
+    <string name="section_gender_title">Gender</string>
+    <string name="section_skills_title">Skills</string>
+    <string name="sk_android">ANDROID</string>
+    <string name="sk_flutter">Flutter</string>
+    <string name="sk_ios">iOS</string>
+    <style name="Theme.CurriculumVitae" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="textFillColor">@color/lightGray</item>
+
+    </style>
+</resources>
