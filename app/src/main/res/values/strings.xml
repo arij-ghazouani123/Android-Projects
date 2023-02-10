@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Color Mixer</string>
+    <string name="nameText">Enter your Name</string>
+    <string name="username_hint">Name</string>
+    <string name="mixBtn">Mix</string>
+    <string name="submitBtn">Submit</string>
+    <string name="mix_them_colors">Mix them colors:</string>
+    <string name="choose_2_colors">Choose 2 colors :</string>
+    <string name="blue_chooser">blueChooser</string>
+    <string name="which_color_is_mixed">Which color is mixed?</string>
+    <string name="quit">Quit</string>
+    <string name="result_image">result image</string>
+</resources>
