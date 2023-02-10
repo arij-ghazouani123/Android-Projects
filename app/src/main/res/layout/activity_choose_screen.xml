@@ -46,21 +46,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
-            android:text="@color/purple" />
+            android:text="@string/purple" />
 
         <RadioButton
             android:id="@+id/greenRad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
-            android:text="@color/green" />
+            android:text="@string/green" />
 
         <RadioButton
             android:id="@+id/orangeRad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
-            android:text="@color/orange" />
+            android:text="@string/orange" />
     </RadioGroup>
 
     <Button
