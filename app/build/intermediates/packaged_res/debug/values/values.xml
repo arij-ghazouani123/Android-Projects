@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimary">#49B692</color>
+    <color name="colorPrimaryDark">#008564</color>
+    <color name="colorPrimaryLight">#7ee9c2</color>
+    <color name="colorSecondary">#9cd7c5</color>
+    <color name="colorSecondaryDark">#6ca595</color>
+    <color name="colorSecondaryLight">#cefff8</color>
+    <color name="disabled">#A3A3A3</color>
+    <color name="errorRed">#A60000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Age">Age</string>
+    <string name="Android">Android</string>
+    <string name="Email">Email</string>
+    <string name="Female">Female</string>
+    <string name="Flutter">Flutter</string>
+    <string name="Gender">Gender</string>
+    <string name="Hobbies">Hobbies</string>
+    <string name="Language">Language</string>
+    <string name="Male">Male</string>
+    <string name="Skills">Skills</string>
+    <string name="app_name">Curriculum Vitae V2</string>
+    <string name="arabic">Arabic</string>
+    <string name="borderImg">Border image</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="full_name">Full name</string>
+    <string name="games">Games</string>
+    <string name="iOS">iOS</string>
+    <string name="image">image</string>
+    <string name="music">Music</string>
+    <string name="remember_me">Remember Me ?</string>
+    <string name="sport">Sport</string>
+    <string name="submit">Submit</string>
+    <string name="title1">Create your resume</string>
+    <string name="title2">Your resume</string>
+    <style name="Theme.CurriculumVitaeV2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="Theme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:textColor">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="Theme.SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/gradiant_splash</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
