@@ -7,11 +7,13 @@
     android:padding="10dp"
     tools:context=".MainActivity">
 
+
+
     <ImageView
         android:id="@+id/profileImage"
         android:layout_width="134dp"
         android:layout_height="138dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="13dp"
         android:contentDescription="@string/image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -121,14 +123,14 @@
         <ImageView
             android:id="@+id/borderImg"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="110dp"
             android:contentDescription="@string/borderImg"
             app:srcCompat="@drawable/background_border" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="20dp">
+            android:layout_height="90dp"
+            android:padding="2dp">
 
             <TextView
                 android:id="@+id/layoutTitle"

@@ -13,6 +13,7 @@ import android.util.Patterns
 import android.view.inputmethod.EditorInfo
 import android.widget.*
 import androidx.annotation.RequiresApi
+import com.google.android.material.internal.ViewUtils.hideKeyboard
 import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {

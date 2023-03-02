@@ -2725,12 +2725,16 @@ drawable email
 drawable gradiant_splash
 drawable ic_arrow_back_black_24
 drawable ic_baseline_account_circle_24
+drawable ic_baseline_home
+drawable ic_baseline_image
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_curriculum_vitae
+drawable ic_info
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2894,12 +2898,14 @@ id all
 id allStates
 id always
 id andrSkBar
+id androidSk
 id androidText
 id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
 id ar
+id arCx
 id arc
 id asConfigured
 id async
@@ -2922,6 +2928,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonPanel
+id buttonRow
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2999,9 +3006,11 @@ id edit_query
 id elastic
 id email
 id emailInput
+id emailText
 id emailTxtInput
 id embed
 id en
+id enCx
 id end
 id endToStart
 id enterAlways
@@ -3024,14 +3033,18 @@ id fixed
 id flip
 id floating
 id fltrSkBar
+id flutterSk
 id flutterText
 id forever
 id fr
+id frCx
+id fragContainer
 id fragment_container_view_tag
 id frost
 id fullNameTxtInput
 id fullscreen_header
 id games
+id gamesCx
 id gender
 id ghost_view
 id ghost_view_holder
@@ -3042,7 +3055,9 @@ id group_divider
 id grouping
 id groups
 id header_title
+id hereTb
 id hideable
+id hobbiesBtn
 id hobbiesLayout
 id home
 id homeAsUp
@@ -3060,6 +3075,7 @@ id indeterminate
 id info
 id invisible
 id inward
+id iosSk
 id iosSkBar
 id isoText
 id italic
@@ -3067,6 +3083,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id langBtn
 id langLayout
 id layout
 id layoutTitle
@@ -3082,6 +3099,7 @@ id linear
 id listMode
 id list_item
 id logo
+id logout
 id ly1
 id ly2
 id ly3
@@ -3146,7 +3164,9 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id music
+id musicCx
 id name
+id nameText
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3188,6 +3208,7 @@ id position
 id postLayout
 id pressed
 id profileImage
+id profilePic
 id progress_circular
 id progress_horizontal
 id radF
@@ -3247,6 +3268,7 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id skillsBtn
 id skillsLayout
 id skipCollapsed
 id skipped
@@ -3261,6 +3283,7 @@ id special_effects_controller_view_tag
 id spline
 id split_action_bar
 id sport
+id sportCx
 id spread
 id spread_inside
 id spring
@@ -3316,6 +3339,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolBar
 id top
 id topPanel
 id touch_outside
@@ -3476,6 +3500,11 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_basic_info
+layout fragment_hobbies
+layout fragment_language
+layout fragment_skills
+layout layout_toolbar
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3537,6 +3566,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3606,6 +3636,8 @@ string iOS
 string icon_content_description
 string image
 string item_view_role_description
+string logout
+string logout_prompt
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
 string m3_sys_motion_easing_emphasized_decelerate
@@ -3707,7 +3739,6 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string remember_me
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

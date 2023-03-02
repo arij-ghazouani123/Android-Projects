@@ -15,7 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Arij\.android\avd\Pixel_3_API_27.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Arij\.android\avd\Pixel_3_API_27_2.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -29,26 +29,31 @@
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
   <component name="ProjectId" id="2LmzcN6X3FMdyrM25fnNjeEJiC1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Curriculum_Vitae_V2.app" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Android Studio/CurriculumVitaeV2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Education\ESPRIT\4SIM5\Semestre 2\Android\CurriculumVitaeV2\app\src\main\java\com\example\curriculumvitaev2" />
       <recent name="E:\Education\ESPRIT\4SIM5\Semestre 2\Android\CurriculumVitaeV2\app\src\main\res\drawable" />
+      <recent name="E:\Education\ESPRIT\4SIM5\Semestre 2\Android\CurriculumVitaeV2\app\src\main\res" />
       <recent name="E:\Education\ESPRIT\4SIM5\Semestre 2\Android\CurriculumVitaeV2\app\src\main\res\layout" />
+      <recent name="E:\Education\ESPRIT\4SIM5\Semestre 2\Android\CurriculumVitaeV2\app\src\main\java\com\example\curriculumvitaev2" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.example.curriculumvitaev2" />
