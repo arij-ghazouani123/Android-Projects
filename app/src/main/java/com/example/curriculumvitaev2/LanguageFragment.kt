@@ -40,7 +40,7 @@ class LanguageFragment : Fragment() {
 
     companion object {
 
-        @JvmStatic
+
         fun new(isArabic: Boolean, isEnglish: Boolean, isFrench: Boolean) =
             LanguageFragment().apply {
                 arguments = Bundle().apply {

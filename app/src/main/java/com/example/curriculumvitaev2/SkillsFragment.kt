@@ -45,7 +45,7 @@ class SkillsFragment : Fragment() {
 
     companion object {
 
-        @JvmStatic
+
         fun new(androidP: Int, flutterP: Int, iosP: Int) =
             SkillsFragment().apply {
                 arguments = Bundle().apply {

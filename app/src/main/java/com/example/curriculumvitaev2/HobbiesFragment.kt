@@ -39,7 +39,7 @@ class HobbiesFragment : Fragment() {
 
     companion object {
 
-        @JvmStatic
+
         fun new(isMusic: Boolean, isGames: Boolean, isSport: Boolean) =
             HobbiesFragment().apply {
                 arguments = Bundle().apply {

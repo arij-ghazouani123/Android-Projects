@@ -1,7 +1,5 @@
 package com.example.curriculumvitaev2
 
-
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -57,7 +55,7 @@ class ResumeActivity : AppCompatActivity() {
         else -> super.onOptionsItemSelected(item)
     }
 
-    @SuppressLint("UseCompatLoadingForDrawables")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resume)
