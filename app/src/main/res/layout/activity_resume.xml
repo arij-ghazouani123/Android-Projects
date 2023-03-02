@@ -108,4 +108,16 @@
             tools:layout="@layout/fragment_basic_info" />
     </FrameLayout>
 
+    <Button
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/careerBtn"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="my career" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
