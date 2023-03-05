@@ -10,12 +10,22 @@
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/gradiant_overlay.xml" value="0.1" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/gradiant_splash.xml" value="0.1" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_baseline_arrow_back.xml" value="0.2555" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_baseline_corp.xml" value="0.1" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_baseline_delete.xml" value="0.1" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_baseline_home.xml" value="0.1345" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_baseline_image.xml" value="0.1345" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_baseline_location_on.xml" value="0.2555" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_info.xml" value="0.1345" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/ic_logout.xml" value="0.1345" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/drawable/thumb_img.xml" value="0.1" />
-        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_layout_education.xml" value="0.536" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_addEducation.xml" value="0.176" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_addExperience.xml" value="0.2" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_careerslist.xml" value="0.152" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_fragment_education.xml" value="0.4" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_fragment_experience.xml" value="0.2" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_layout_education.xml" value="0.176" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_layout_experience.xml" value="0.1" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_resume.xml" value="0.264" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/activity_skills_form.xml" value="0.264" />
@@ -29,6 +39,7 @@
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/layout_edu_card.xml" value="0.11980749746707194" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/layout_exp_card.xml" value="0.264" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/layout/layout_toolbar.xml" value="0.17798913043478262" />
+        <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/menu/careerMenu.xml" value="0.4" />
         <entry key="..\:/Education/ESPRIT/4SIM5/Semestre 2/Android/CurriculumVitaeV2/app/src/main/res/menu/menu.xml" value="0.19895833333333332" />
       </map>
     </option>

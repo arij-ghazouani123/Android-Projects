@@ -28,6 +28,16 @@
                 android:contentDescription="@string/image"
                 android:foreground="@drawable/gradiant_overlay" />
 
+            <ImageView
+                android:id="@+id/deleteExperience"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/image"
+                card_view:srcCompat="@drawable/ic_baseline_delete"
+                tools:ignore="ImageContrastCheck" />
+
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"

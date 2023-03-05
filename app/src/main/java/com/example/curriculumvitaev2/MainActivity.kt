@@ -16,6 +16,11 @@ import androidx.annotation.RequiresApi
 import com.google.android.material.internal.ViewUtils.hideKeyboard
 import com.google.android.material.textfield.TextInputLayout
 
+
+const val PICK_IMAGE_CODE = 100
+const val PERMS_REQUEST_CODE = 101
+const val IS_REMEMBERED = "IS_REMEMBERED"
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var fNameTextLayout: TextInputLayout
@@ -71,12 +76,10 @@ class MainActivity : AppCompatActivity() {
         fNameTextLayout = findViewById(R.id.fullNameTxtInput)
         emailTextLayout = findViewById(R.id.emailTxtInput)
         ageTextLayout = findViewById(R.id.ageTxtInput)
-
         radioGroup = findViewById(R.id.radioGroup)
         nextBtn = findViewById(R.id.nxtBtn)
         imageBorder = findViewById(R.id.borderImg)
         layoutTitle = findViewById(R.id.layoutTitle)
-
         profileImage = findViewById(R.id.profileImage)
 
 
@@ -85,24 +88,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         supportActionBar?.title = resources.getString(R.string.title1)
-
         val inputLayouts = mutableListOf(
             fNameTextLayout, emailTextLayout, ageTextLayout
         )
 
         val inputs = inputLayouts.map { t -> t.editText }
-
-
         val ageInput = inputs.first { it?.id == R.id.ageInput }
         val emailInput = inputs.first { it?.id == R.id.emailInput }
 
-        // Event listeners
-        ageInput?.on(EditorInfo.IME_ACTION_DONE) {
-            ageInput.apply {
-                clearFocus()
-                hideKeyboard()
-            }
-        }
+
 
         profileImage.setOnClickListener {
 

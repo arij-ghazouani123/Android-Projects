@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.FragmentContainerView
 
+const val IS_GRANTED_READ_IMAGES = "IS_GRANTED_READ_IMAGES"
 
 class ResumeActivity : AppCompatActivity() {
 

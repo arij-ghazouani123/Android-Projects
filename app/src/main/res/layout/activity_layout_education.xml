@@ -34,21 +34,21 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/stDate"
+                    android:id="@+id/startDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAllCaps="true"
-                    tools:text="01/09/1999" />
+                    tools:text="01/01/1998" />
 
                 <TextView
-                    android:id="@+id/fDate"
+                    android:id="@+id/finalDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textAlignment="textEnd"
                     android:textAllCaps="true"
-                    tools:text="01/09/1999" />
+                    tools:text="01/01/1998" />
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -56,7 +56,16 @@
                 android:layout_height="match_parent"
                 android:paddingTop="10dp">
 
-
+                <ImageView
+                    android:id="@+id/deleteEducation"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:contentDescription="@string/delete"
+                    android:src="@drawable/ic_baseline_delete"
+                    card_view:layout_constraintBottom_toBottomOf="parent"
+                    card_view:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="ImageContrastCheck" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -67,7 +76,7 @@
                     card_view:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:id="@+id/cName"
+                        android:id="@+id/companyName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
@@ -77,7 +86,7 @@
                         tools:text="Company name" />
 
                     <TextView
-                        android:id="@+id/cAddr"
+                        android:id="@+id/companyAddress"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"

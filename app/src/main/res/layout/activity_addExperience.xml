@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddExperienceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/addEducationToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back"
+            app:title="Add Education"
+            app:titleMarginStart="10dp"
+            app:titleTextColor="@color/white" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/expImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_baseline_image"
+        tools:ignore="ImageContrastCheck" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/experienceNameTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Company Name"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        app:boxStrokeErrorColor="@color/errorRed"
+        app:boxStrokeWidth="2dp"
+        app:errorIconTint="@color/errorRed"
+        app:errorTextColor="@color/errorRed"
+        app:hintAnimationEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_corp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/experienceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/experienceAddressTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Company Address"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        app:boxStrokeErrorColor="@color/errorRed"
+        app:boxStrokeWidth="2dp"
+        app:errorIconTint="@color/errorRed"
+        app:errorTextColor="@color/errorRed"
+        app:hintAnimationEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_location_on">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/experienceAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/expStartDateTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Start Date"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        app:boxStrokeErrorColor="@color/errorRed"
+        app:boxStrokeWidth="2dp"
+        app:errorIconTint="@color/errorRed"
+        app:errorTextColor="@color/errorRed"
+        app:hintAnimationEnabled="true"
+        app:startIconDrawable="@drawable/calendar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/expStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:singleLine="true"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/expDateTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="End Date"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        app:boxStrokeErrorColor="@color/errorRed"
+        app:boxStrokeWidth="2dp"
+        app:errorIconTint="@color/errorRed"
+        app:errorTextColor="@color/errorRed"
+        app:hintAnimationEnabled="true"
+        app:startIconDrawable="@drawable/calendar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/expEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:singleLine="true"
+            tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/saveBtnExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/save"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>
